@@ -16,7 +16,7 @@ class aRegularClass:
     pass
 
 
-if(__name__ == '__main__'):
+if __name__ == '__main__':
     print("executing as a standalone script:\n")
     print(f'\naRegularString = {aRegularString}')
     print(f'\naRegularList = {aRegularList}')
