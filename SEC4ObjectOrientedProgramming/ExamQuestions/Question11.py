@@ -23,5 +23,6 @@ s = Spam()
 #v)Ham                                                                  #CORRECT!!
 
 #RE:
-#-Method Resolution Order: sset of rule that construct linearization of classes
+#-Method Resolution Order: set of rule that construct linearization of classes
+#   meaning: it will execute the first __init__() it finds in the class method resolution order.
 #   ex. Spam.__mro__    #Ham (<class '__main__.Spam'>, <class '__main__.Ham'>, <class '__main__.Eggs'>, <class 'object'>)
