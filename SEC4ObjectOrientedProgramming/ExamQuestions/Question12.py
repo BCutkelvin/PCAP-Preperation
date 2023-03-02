@@ -15,4 +15,4 @@ spam = Spam()
 #iv)print("hasattr('spam', 'ham') :", hasattr('spam', 'ham') )     #WRONG
 #v)print("hasattr('Spam', 'ham') :", hasattr('Spam', 'ham') )      #WRONG
 
-#RE: hasattr(objet, name), where the argurments are an OBJECT and a STRING
+#RE: hasattr(objet, name), where the arguments are an OBJECT and a STRING
