@@ -22,6 +22,6 @@ s = Spam()
 #iv)Ham Eggs    #WRONG!
 
 #*RE: MRO (Method Resolution Order) -
-#   -Class weill execute the first __init__() it finds in the class
+#   -Class will execute the FIRST __init__() it finds in the class
 #ex
 print("Spam.__mro__: ", Spam.__mro__)   #(<class '__main__.Spam'>, <class '__main__.Ham'>, <class '__main__.Eggs'>, <class 'object'>)
