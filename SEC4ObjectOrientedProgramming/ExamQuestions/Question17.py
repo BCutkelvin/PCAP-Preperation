@@ -7,12 +7,12 @@ What is the output of the following code?
 
 class Spam:
     def __init__(self, v):
-        self.ham = v
-        self.__ham = self. ham + 1
+        self.ham = v                #3
+        self.__ham = self. ham + 1  #4
 
-s = Spam(100)
+s = Spam(100)                       #5
 
-print(s.ham, s.__ham)
+print(s.ham, s.__ham)               #6
 
 #i)Error in Line 6      #CORRECT!!!; *RE: variables prefixed with "__" are PRIVATE variables and CANNOT  be accessed
                         # outside the class!
