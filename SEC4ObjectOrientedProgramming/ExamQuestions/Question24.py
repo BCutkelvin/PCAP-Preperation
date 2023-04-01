@@ -15,7 +15,7 @@ class Spam(Ham):
 s = Spam()
 print(s.v1, s.v2)
 
-#i)0 2
-#ii)Invalid syntax
-#iii)AttributeError:'Spam' has no attribute 'v1'
-#iv)1 2
+#i)0 2                                           #WRONG
+#ii)Invalid syntax                               #WRONG
+#iii)AttributeError:'Spam' has no attribute 'v1' #CORRECT!!
+#iv)1 2                                          #WRONG
